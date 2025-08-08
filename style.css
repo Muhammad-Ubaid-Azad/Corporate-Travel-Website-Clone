@@ -7,6 +7,9 @@
 
 .page-container {
   padding: 0 400px;
+ background-image:url('Background.jpg');
+ background-size: cover;
+ background-repeat: no-repeat;
 }
 
 .nav .logo{
@@ -27,7 +30,7 @@
 .links a{
     text-decoration: none;
     font-size: 25px;
-    color: black;
+    color: white;
 }
 
 .links a:hover{
@@ -47,7 +50,7 @@
 .travel-nav h3{
     font-size: 16px;
     font-weight: 50;
-    color: gray;
+    color: rgb(141, 139, 139);
 
 }
 
@@ -64,6 +67,7 @@
     width: 600px;
     font-weight: bold;
     text-align: center;
+    color: white;
 }
 
 .main-heading p{
@@ -73,11 +77,12 @@
 
 .main-heading img{
     width: 600px;
+
 }
 
 .main-heading p:nth-of-type(2) {
-  text-align: left;
-  color: black;
+  text-align: center;
+  color: rgb(175, 174, 174);;
   margin-top: 40px;
   font-size: 20px;
   font-weight: 400;
@@ -93,20 +98,26 @@
     margin-top: 40px;
 }
 
-.heading h1{
-    font-size: 25px;
+.heading {
+    font-size: 30px;
     margin-top: 20px;
+    color: white;
+    text-align: center;
+
 }
+
+
 
 .content {
       text-align: left;
-  color: black;
+  color: rgb(175, 174, 174);
   margin-top: 10px;
   font-size: 20px;
   font-weight: 400;
   letter-spacing: 2px;
   word-spacing: 6px;
   line-height: 150%;
+  text-align: center;
 }
 
 .footer{
